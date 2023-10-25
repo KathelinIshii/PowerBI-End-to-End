@@ -6,6 +6,7 @@ FROM Sales.SalesOrderHeader AS SOH
 INNER JOIN Sales.Customer AS SC
 ON SC.CustomerID = SOH.CustomerID
 INNER JOIN Person.Person PP
-ON PP.BusinessEntityID = SC.CustomerID;
+ON PP.BusinessEntityID = SC.CustomerID
+ORDER BY SOH.TotalDue DESC;
 
 --Maiores clientes com base nas vendas (Nome do cliente, valor total da venda por dia, mês ou ano)

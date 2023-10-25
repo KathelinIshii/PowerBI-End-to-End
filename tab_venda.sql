@@ -8,3 +8,5 @@ SELECT * FROM Sales.SalesOrderDetail;
  
 SELECT * FROM Person.Person
 --NOME DO CLIENTE 
+
+SELECT * FROM Sales.Customer

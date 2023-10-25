@@ -1,5 +1,5 @@
 SELECT
-	PP.FirstName + ' ' + PP.LastName,
+	TOP 10 PP.FirstName + ' ' + PP.LastName AS NomeCustomer,
 	SOH.OrderDate,
 	SOH.TotalDue
 FROM Sales.SalesOrderHeader AS SOH

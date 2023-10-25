@@ -14,7 +14,5 @@ SELECT * FROM Sales.SalesOrderHeader;
 
 SELECT 
 	CustomerID, 
-	OrderDate, 
-	DueDate, 
-	ShipDate
+	OrderDate
 FROM Sales.SalesOrderHeader

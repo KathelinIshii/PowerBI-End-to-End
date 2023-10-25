@@ -10,3 +10,5 @@ SELECT * FROM Person.Person
 --NOME DO CLIENTE 
 
 SELECT * FROM Sales.Customer
+
+SELECT * FROM Person.Person

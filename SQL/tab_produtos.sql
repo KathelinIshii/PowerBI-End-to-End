@@ -20,3 +20,11 @@ INNER JOIN Production.Product AS PP
 ON SOD.ProductID = PP.ProductID
 INNER JOIN Sales.SalesOrderHeader SOH
 ON SOD.SalesOrderID = SOH.SalesOrderID;
+
+---------------
+
+UPDATE Production.Product
+SET Name = 'Sport-100 Helmet, Blue'
+WHERE ProductID = 711;
+
+SELECT * FROM Production.Product;

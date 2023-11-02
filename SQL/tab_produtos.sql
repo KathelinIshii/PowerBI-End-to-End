@@ -24,7 +24,7 @@ ON SOD.SalesOrderID = SOH.SalesOrderID;
 ---------------
 
 UPDATE Production.Product
-SET Name = 'Sport-100 Helmet, Blue'
+SET Name = 'Sport-100 Helmet, Bluees'
 WHERE ProductID = 711;
 
 SELECT * FROM Production.Product;
